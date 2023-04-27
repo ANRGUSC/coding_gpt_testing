@@ -46,18 +46,7 @@ if __name__ == "__main__":
     print(f"GPT-3 Response: {response}")
     print(type(response))
 
-
-
-    def extract_between_quotes(input_text):
-        pattern = r"^\s*`{3}\n([\s\S]*?)\n\s*`{3}"
-        match = re.search(pattern, input_text, re.MULTILINE)
-
-        if match:
-            return match.group(1)
-        else:
-            return None
-
-    result = extract_between_quotes(response)
+    result = json.loads(response)['code']
 
     if result:
         print("The extracted text between the quotes is:\n\n" + result)
