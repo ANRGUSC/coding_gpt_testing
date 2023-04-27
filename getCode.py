@@ -1,6 +1,7 @@
 import requests
 import json
 import re
+import sys
 
 
 def query_gpt3(query, tokens=1000):
@@ -35,7 +36,8 @@ if __name__ == "__main__":
     }
 
     # Read the query file as a string
-    with open('query.txt', 'r') as file:
+    filename = sys.argv[1]
+    with open(filename, 'r') as file:
         query = file.read().strip()
 
 
@@ -50,7 +52,7 @@ if __name__ == "__main__":
 
     if result:
         print("The extracted text between the quotes is:\n\n" + result)
-        write_string_to_file(result, 'code.py')
+        write_string_to_file(result, 'code_'+filename[:len(filename)-4]+'.py')
     else:
         print("No text found between the specified quotes.")
 
