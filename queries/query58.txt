@@ -1,0 +1,4 @@
+Write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'. Given a string s consisting of words and spaces, return the length of the last word in the string. Write code that fits the following template:
+The program should continue below the following lines: 
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:

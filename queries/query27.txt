@@ -1,0 +1,4 @@
+Write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'. Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val. Write code that fits the following template:
+The program should continue below the following lines: 
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
