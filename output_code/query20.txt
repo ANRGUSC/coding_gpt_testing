@@ -1,0 +1,9 @@
+Write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'. Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+An input string is valid if:
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type. 
+Write code that fits the following template:
+The program should continue below the following lines: 
+class Solution:
+    def isValid(self, s: str) -> bool:
