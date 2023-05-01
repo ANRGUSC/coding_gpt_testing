@@ -1,4 +1,0 @@
-Write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'. Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums. Write code that fits the following template:
-The program should continue below the following lines: 
-class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
