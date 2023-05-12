@@ -1,0 +1,4 @@
+Write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'. Given a string s, return the longest palindromic substring in s.
+The program should continue below the following lines:
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
