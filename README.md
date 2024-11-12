@@ -11,5 +11,10 @@ Next, we created a parser called extract.py to read each file and extract a dict
 
 Lastly, we needed to extract the response from the parser code out of a JSON object. To do this, we developed automate_parsed.py, which parsed through all the files and stored the results in extracted{question_number}.txt, with each file corresponding to its respective question number. We provided an example of Question 2 from LeetCode in the scraping_code folder. 
 
+Now that we had the starter code, we wrote a program called query_writer.py to write queries using the LeetCode CSV file and the extracted files of the starter code. You can find a sample query called query(TO EDIT).txt in the folder create_queries_responses. saved the responses as text files named query{question_number}.txt, with each file corresponding to its respective question number. Note, in order to write all the queries, you have to edit the level to "easy, medium, or hard" to generate all the queries. 
+
+Lastly, to generate the responses of ChatGPT GPT 3.5-turbo, we wrote getCode.py that uses an API key to . Automate_queries used to run all the queries at once and all responses stored code_query{question_number}.py. 
+
+Now 
 
 The original dataset of problems is obtained from https://www.kaggle.com/datasets/gzipchrist/leetcode-problem-dataset/code 
