@@ -1,1 +1,0 @@
-Write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'. Write  a function to add two numbers and code that calls that function to add two particular numbers and print it.
