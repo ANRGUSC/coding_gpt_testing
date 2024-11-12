@@ -1,4 +1,0 @@
-Write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'. Given an integer array nums of length n and an integer target, find three integers in nums such that the sum is closest to target. Return the sum of the three integers.
-The program should continue below the following lines:
-class Solution:
-    def threeSumClosest(self, nums: List[int], target: int) -> int:

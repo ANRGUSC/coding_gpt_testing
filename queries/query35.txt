@@ -1,5 +1,0 @@
-Write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'. Given a sorted array of distinct integers and a target value, 
-return the index if the target is found. If not, return the index where it would be if it were inserted in order. You must write an algorithm with O(log n) runtime complexity. Write code that fits the following template:
-The program should continue below the following lines: 
-class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:

@@ -1,4 +1,0 @@
-Write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'. Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string "". Write code that fits the following template:
-The program should continue below the following lines: 
-class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:

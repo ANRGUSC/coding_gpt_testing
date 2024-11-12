@@ -1,4 +1,0 @@
-Write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'. Given a roman numeral, convert it to an integer. Write code that fits the following template:
-The program should continue below the following lines: 
-class Solution:
-    def romanToInt(self, s: str) -> int:

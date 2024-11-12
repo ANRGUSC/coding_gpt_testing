@@ -1,5 +1,0 @@
-Write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'. Given an integer x, return true if x is a 
-palindrome, and false otherwise. Write code that fits the following template:
-The program should continue below the following lines: 
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
