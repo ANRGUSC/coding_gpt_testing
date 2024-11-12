@@ -13,8 +13,8 @@ To further process the parsed data, we developed automate_parsed.py, which extra
 
 Once the starter code was prepared, we wrote a program called query_writer.py to create the queries using the LeetCode CSV file and the extracted starter code files. A sample query, query_sample.txt, is provided in the create_queries_responses folder. The full queries were saved as query{question_number}.txt, with each file corresponding to its respective question number. Note: To generate all queries, you must edit the script to specify the difficulty level (“easy,” “medium,” or “hard”).
 
-Finally, to generate responses using ChatGPT’s GPT-3.5-turbo, we wrote getCode.py, which uses an API key for access. We automated this step using automate_queries.py to run all queries simultaneously, storing the responses in code_query{question_number}.py, with each file corresponding to its respective question number.
+Finally, to generate responses using ChatGPT’s GPT-3.5-turbo, we wrote getCode.py, which uses an API key for access to ChatGPT. To change the model of testing, you can specify which model you want in the script. We automated this step using automate_queries.py to run all queries simultaneously, storing the responses in code_query{question_number}.py, with each file corresponding to its respective question number. A sample output can be found in the folder ouput_code. 
 
-When we returned to Chain of Thought (CoT) prompt engineering, you can find an example query in CoTquery.txt. Additionally, when we incorporated failed test cases, an example query is available the folder queries called IncorporatingFailedQuery.txt.
+When we returned to Chain of Thought (CoT) prompt engineering, you can find an example query in CoTquery.txt. Additionally, when we incorporated failed test cases, an example query is available in the folder queries called IncorporatingFailedQuery.txt.
 
 The original dataset of problems is obtained from https://www.kaggle.com/datasets/gzipchrist/leetcode-problem-dataset/code 
