@@ -15,6 +15,6 @@ Once the starter code was prepared, we wrote a program called query_writer.py to
 
 Finally, to generate responses using ChatGPT’s GPT-3.5-turbo, we wrote getCode.py, which uses an API key for access. We automated this step using automate_queries.py to run all queries simultaneously, storing the responses in code_query{question_number}.py, with each file corresponding to its respective question number.
 
-*need to add in prompt engineering, failed incorporating, and how to change gpt-4.0. 
+When we returned to Chain of Thought (CoT) prompt engineering, you can find an example query in CoTquery.txt. Additionally, when we incorporated failed test cases, an example query is available the folder queries called IncorporatingFailedQuery.txt.
 
 The original dataset of problems is obtained from https://www.kaggle.com/datasets/gzipchrist/leetcode-problem-dataset/code 
