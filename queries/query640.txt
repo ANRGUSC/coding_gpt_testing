@@ -1,0 +1,34 @@
+You are asked to write a python program to do the following, as a two-step process. First write a pseudo-code for this program in natural language, taking into account what is the input, what is the desired output and look at the examples given. Analyze your pseudo-code for any possible mistakes and fix them in the following second step. In the second step, write a python program to do the following, and put this program in a json object as the value corresponding to the key 'code'.
+Solve a given equation and return the value of `x` in the form of string "x=#value". The equation contains only '+', '-' operation, the variable `x` and its coefficient.
+
+If there is no solution for the equation, return "No solution".
+
+If there are infinite solutions for the equation, return "Infinite solutions".
+
+If there is exactly one solution for the equation, we ensure that the value of `x` is an integer.
+
+
+Example 1:
+Input: "x+5-3+x=6+x-2"
+Output: "x=2"
+
+Example 2:
+Input: "x=x"
+Output: "Infinite solutions"
+
+Example 3:
+Input: "2x=x"
+Output: "x=0"
+
+Example 4:
+Input: "2x+3x-6x=x+2"
+Output: "x=-1"
+
+Example 5:
+Input: "x=x+2"
+Output: "No solution"
+
+Write code that fits the following template. Please put this program in a json object as the value corresponding to the key 'code'. The program should continue below the following lines:
+class Solution:
+    def solveEquation(self, equation: str) -> str:
+        
